@@ -13,3 +13,11 @@ def sum(numbers)
 	end
 	my_sum
 end
+
+def multiply(num1, *nums)
+	my_product = num1
+	nums.each do |num|
+		my_product *= num
+	end
+	my_product
+end
