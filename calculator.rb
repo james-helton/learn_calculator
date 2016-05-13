@@ -21,3 +21,7 @@ def multiply(num1, *nums)
 	end
 	my_product
 end
+
+def power(num1, num2)
+	num1 ** num2
+end
