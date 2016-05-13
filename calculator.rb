@@ -25,3 +25,15 @@ end
 def power(num1, num2)
 	num1 ** num2
 end
+
+def factorial(num)
+	result = 1
+	if num > 1
+		num.downto(1) do |x|
+			result *= x
+		end
+	elsif num != 1 && num != 0
+		result = 0
+	end
+	result
+end
